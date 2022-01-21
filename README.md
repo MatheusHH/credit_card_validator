@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+You only need to do this: ValidateCard.card_number_validate(number) and then it will return true for valid credit card or false for invalid credit card.
 
 ## Development
 

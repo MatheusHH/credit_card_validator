@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "credit_card_validator/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "credit_card_validator"
+  spec.name          = "credit_cards_validator"
   spec.version       = CreditCardValidator::VERSION
   spec.authors       = ["Matheus"]
   spec.email         = ["matheussystems2020@gmail.com"]

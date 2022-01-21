@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{A Gem to validate credit cards.}
   spec.description   = %q{A gem where you provide a credit card number and verify if it is valid or not.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/MatheusHH"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

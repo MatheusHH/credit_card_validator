@@ -9,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'credit_card_validator'
+gem 'credit_cards_validator'
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install credit_card_validator
+    $ gem install credit_cards_validator
 
 ## Usage
 

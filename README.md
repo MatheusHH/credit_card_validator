@@ -26,7 +26,7 @@ You only need to do this:
 
     `ValidateCard.card_number_validate(number)` 
 
-and then it will return true for valid credit card or false for invalid credit card.
+and then it will return true for valid credit card or false for invalid credit card. if you use this gem inside terminal, require 'credit_card_validator' instead.
 
 ## Development
 

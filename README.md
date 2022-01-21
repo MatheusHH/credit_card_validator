@@ -24,8 +24,8 @@ Or install it yourself as:
 
 You only need to do this: 
 
-    ValidateCard.card_number_validate(number) 
-    
+    `ValidateCard.card_number_validate(number)` 
+
 and then it will return true for valid credit card or false for invalid credit card.
 
 ## Development
@@ -36,7 +36,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/credit_card_validator.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[MatheusHH]/credit_card_validator.
 
 ## License
 

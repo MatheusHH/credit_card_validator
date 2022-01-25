@@ -49,7 +49,7 @@ RSpec.describe CreditCardValidator do
     end
 
     it "Return Error to invalid card number" do
-      expect {ValidateCard.brand_name(rand(999999999999..9999999999999999))}.to raise_error(RuntimeError)
+      expect(ValidateCard.brand_name(rand(999999999999..9999999999999999))).to eq(false)
     end
   end
 end

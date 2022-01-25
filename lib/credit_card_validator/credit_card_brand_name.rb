@@ -10,7 +10,7 @@ module CreditCardValidator
     }
 
     def self.verify_card_brand(number)
-      raise "Invalid Card Number" unless ValidateCard.card_number_validate(number)
+      return false unless ValidateCard.card_number_validate(number)
       CARD_BRANDS.each do |key, value|
         pattern = Regexp.new(value)
         if pattern.match?(number.to_s)

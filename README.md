@@ -36,7 +36,7 @@ You can use:
 
     ValidateCard.brand_name(number).to_s.tr("_"," ").capitalize
      
-and you will get humanized name
+and you will get humanized name. It will return false for invalid numbers!
 
 Current Card Brand Names:
 

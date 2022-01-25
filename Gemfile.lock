@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    credit_card_validator (0.1.0)
+    credit_cards_validator (0.7.0)
 
 GEM
   remote: https://rubygems.org/
@@ -27,7 +27,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (>= 1.16)
-  credit_card_validator!
+  credit_cards_validator!
   rake (~> 10.0)
   rspec (~> 3.0)
 

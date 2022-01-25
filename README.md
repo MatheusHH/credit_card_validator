@@ -20,9 +20,19 @@ Or install it yourself as:
 
 You only need to do this: 
 
-    `ValidateCard.card_number_validate(number)` 
+    'ValidateCard.card_number_validate(number)' 
 
 and then it will return true for valid credit card or false for invalid credit card. if you use this gem inside terminal, require 'credit_card_validator' instead.
+
+if you want to get the brand name you only need to do this:
+
+    'ValidateCard.brand_name(number)'
+
+and then you will get card brand name like this...
+
+    :master_card
+
+You can use 'ValidateCard.brand_name(number).to_s.tr("_"," ").capitalize' and you will get humanized name
 
 ## Development
 

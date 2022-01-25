@@ -8,7 +8,7 @@ RSpec.describe CreditCardValidator do
 
   context 'Validate Card Number' do  
     it "Return false to invalid card number" do
-      expect(ValidateCard.card_number_validate(rand(199999999999..9999999999999999))).to eq(false)
+      expect(ValidateCard.card_number_validate(rand(999999999999..9999999999999999))).to eq(false)
     end
 
     it "Return true to valid card number" do
@@ -48,5 +48,8 @@ RSpec.describe CreditCardValidator do
       expect(ValidateCard.brand_name(jcb_list.sample)).to eq(:jcb)
     end
 
+    it "Return Error to invalid card number" do
+      expect {ValidateCard.brand_name(rand(999999999999..9999999999999999))}.to raise_error(RuntimeError)
+    end
   end
 end

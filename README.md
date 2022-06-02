@@ -15,7 +15,7 @@ And then execute:
 Or install it yourself as:
 
     $ gem install credit_cards_validator
-and require it in your file or terminal.
+and require it in your file or terminal like this: require 'credit_card_validator'.
 ## Usage
 
 You only need to do this: 

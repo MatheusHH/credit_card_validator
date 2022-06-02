@@ -15,14 +15,12 @@ And then execute:
 Or install it yourself as:
 
     $ gem install credit_cards_validator
-
+and require it in your file or terminal.
 ## Usage
 
 You only need to do this: 
 
     ValidateCard.card_number_validate(number) 
-
-and then it will return true for valid credit card or false for invalid credit card. if you use this gem inside terminal, require 'credit_card_validator' instead.
 
 if you want to get the brand name you only need to do this:
 
